@@ -1,9 +1,9 @@
-title: devlopr
-subtitle: A Portfolio Jekyll Theme Built for Developers
+title: Nic McDonald
+subtitle: Software and Hardware Engineer
 description: >- # this means to ignore newlines until "baseurl:"
   devlopr-jekyll is a beautiful Jekyll Theme Built For Developers, which is optimized for speed and readability.
 
-url: "" # the base hostname & protocol for your site, e.g. https://example.github.io
+url: https://www.nicm.dev    # the base hostname & protocol for your site, e.g. https://example.github.io
 baseurl: "" # the subpath of your site, e.g. /blog
 
 # Navigation
@@ -12,75 +12,103 @@ urls:
       url: /
     - text: About
       url: /about
-    - text: Blog
-      url: /blog
-    - text: Gallery
-      url: /gallery
-    - text: Shop
-      url : /shop
-    - text: Contact
-      url : /contact
+#    - text: Blog
+#      url: /blog
+#    - text: Gallery
+#      url: /gallery
+#    - text: Shop
+#      url : /shop
+#    - text: Contact
+#      url : /contact
 
 
 # Edit Author details (For multi authors check _data/authors.yml)
 
-author_logo: profile.png
-author: John Doe
-author_bio: Hi, my name is John Doe. I built this site using devlopr-jekyll :D
-author_email: "mail@sujaykundu.com"
-author_location: India
-author_website_url: "https://sujaykundu.com"
-typewrite-text: devlopr is a jekyll framework built for developers. You can edit this in _config.yml file
-hero_cover_img: sample_cover.jpg # replace this for changing homepage cover (eg. try cover.jpeg). Image should be in /assets/img
+author_logo: profile2.png
+author: Nic McDonald
+author_bio: I am a computer architecture research scientist and software/hardware engineer. I am a senior research scientist at Nvidia Research working on next generation hardware and software systems for Nvidia networks.
+author_email: "n.mcdonald83@gmail.com"
+author_location: Utah, USA
+author_website_url: "https://www.nicm.dev"
+typewrite-text: Hello! My name is Nic. I'm a computer nerd. Nice to meet you :)
+hero_cover_img: sample_cover.jpg # cover.png
 
 # Experiences
 author_work_experiences:
-            - company_name: Google
-              company_logo: google.png
-              company_url: https://google.com
-              designation: Software Engineer
-              description: Worked on various Google Products
-              visibility: true
-            - company_name: Microsoft
-              company_logo: microsoft.png
-              company_url: https://microsoft.com
-              designation: Azure Developer
-              description: Worked on various Azure Cloud Products
-              visibility: true
+  - company_name: NVIDIA
+    company_logo: nvidia.png
+    company_url: https://nvidia.com
+    designation: Research Scientist
+    description: Designing next generation large-scale networked systems for Artificial Intelligence (AI) and High Performance Computing (HPC).
+    visibility: true
+  - company_name: Google
+    company_logo: google.png
+    company_url: https://google.com
+    designation: Software Engineer
+    description: I worked in the system infrastructure team specifically on tightly-coupled high-performance network technologies covering topologies, routing algorithms, network acceleration and offloading, congestion control, processing architectures, and more.
+    visibility: true
+  - company_name: Hewlett Packard Labs
+    company_logo: hpe.png
+    company_url: https://hpe.com/labs
+    designation: Research Scientist
+    description: I was a lead architect on design of a new high-performance network designed for large-scale high-performance computing (HPC) systems and massively parallel memory-driven computing (MDC) systems. I was the key designer of the Gen-Z routing architectural specification. Using a data-driven simulation approach I guided the design of a novel multi-chip module (MCM) switch architecture that utilizes co-packaged integrated photonics.
+    visibility: true
+  - company_name: L3 Communications
+    company_logo: l3.png
+    company_url: https://l3harris.com
+    designation: Digital Hardware Design Engineer
+    description: Developed digital processing architectures for encryption, networking, and waveform data processing. Designed systems with strict requirements for high-performance, low-power, and low-area. All designs were meticulously scrutinized for high-reliability and signal integrity.
+    visibility: true
 
 # Education
 author_education_details:
-              - college_logo: mit.png
-                college_name: MIT
-                college_url: https://mit.org
-                college_degree: CS Engineer
-                description: Bachelor of Technology
-                visibility: true
+- college_logo: stanford.png
+  college_name: Stanford University
+  college_url: https://stanford.edu
+  college_degree: Doctorate of Philosophy
+  description: Electrical Engineering, 2016
+  visibility: true
+- college_logo: uou.png
+  college_name: University of Utah
+  college_url: https://utah.edu
+  college_degree: Master's
+  description: Electrical Engineering, 2012
+  visibility: true
+- college_logo: uou.png
+  college_name: University of Utah
+  college_url: https://utah.edu
+  college_degree: Bachelor's
+  description: Computer Engineering, 2010
+  visibility: true
+
 
 # Projects
 author_project_details:
-              - project_thumbnail: gamershub.png
-                project_title: Gamers Hub
-                project_description: A Platform built for Gamers and Game Devs
-                project_url: https://gamershub.in
-                visibility: true
-              - project_thumbnail: hack4r.PNG
-                project_title: Hack4r
-                project_description: A Platform built for Hackers and Penetration Testers
-                project_url: https://hack4r.com
-                visibility: true
+- project_thumbnail: gamershub.png
+  project_title: Gamers Hub
+  project_description: A Platform built for Gamers and Game Devs
+  project_url: https://gamershub.in
+  visibility: true
+- project_thumbnail: hack4r.PNG
+  project_title: Hack4r
+  project_description: A Platform built for Hackers and Penetration Testers
+  project_url: https://hack4r.com
+  visibility: true
 
-# social links
-twitter_username: johndoe
-github_username:  sujaykundu777
-facebook_username: johndoe
-linkedin_username: johndoe
-behance_username: johndoe
-instagram_username: johndoe
-medium_username: johndoe
-telegram_username: johndoe
-dribbble_username: johndoe
-flickr_username: johndoe
+# social links - using
+github_username:  nicmcd
+#bitbucket_username: nicmcd
+#facebook_username: johndoe
+linkedin_username: nicmcdonald
+
+# social links - not using
+#twitter_username: johndoe
+#behance_username: johndoe
+#instagram_username: johndoe
+#medium_username: johndoe
+#telegram_username: johndoe
+#dribbble_username: johndoe
+#flickr_username: johndoe
 
 #for comments ( we got Disqus and Hyvor Commenting, uncomment the one you want to use )
 
@@ -88,10 +116,10 @@ flickr_username: johndoe
 hyvor_talk_website_id: 476
 
 # wakatime username (coding activity)
-wakatime_username: sujaykundu777
+wakatime_username: nicmcd
 
 # mailchimp embedded form url (newsletter):
-mailchimp_form_url: https://sujaykundu.us10.list-manage.com/subscribe/post?u=50bab1c85eae24ecfb0f68361&amp;id=3a2dd721d0
+#mailchimp_form_url: https://sujaykundu.us10.list-manage.com/subscribe/post?u=50bab1c85eae24ecfb0f68361&amp;id=3a2dd721d0
 
 # contact form - (choose formspress or getform)
 # getform_endpoint: 83b703c3-9e47-4df4-ac55-e24d7eb02abc
