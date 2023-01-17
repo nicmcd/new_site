@@ -8,10 +8,12 @@ baseurl: "" # the subpath of your site, e.g. /blog
 
 # Navigation
 urls:
-    - text: Home
-      url: /
-    - text: About
-      url: /about
+  - text: CV
+    url: /assets/pubs/nicmcdonald_cv.pdf
+#    - text: Home
+#      url: /
+#    - text: About
+#      url: /about
 #    - text: Blog
 #      url: /blog
 #    - text: Gallery
@@ -26,9 +28,9 @@ urls:
 
 author_logo: profile2.png
 author: Nic McDonald
-author_bio: I am a computer architecture research scientist and software/hardware engineer. I am a senior research scientist at Nvidia Research working on next generation hardware and software systems for Nvidia networks.
+author_bio: I am a computer architecture research scientist and software/hardware engineer. I am a senior research scientist at NVIDIA Research working on next generation hardware and software systems for NVIDIA networks.
 author_email: "n.mcdonald83@gmail.com"
-author_location: Utah, USA
+author_location: Salt Lake City, Utah, USA
 author_website_url: "https://www.nicm.dev"
 typewrite-text: Hello! My name is Nic. I'm a computer nerd. Nice to meet you :)
 hero_cover_img: sample_cover.jpg # cover.png
@@ -45,13 +47,13 @@ author_work_experiences:
     company_logo: google.png
     company_url: https://google.com
     designation: Software Engineer
-    description: I worked in the system infrastructure team specifically on tightly-coupled high-performance network technologies covering topologies, routing algorithms, network acceleration and offloading, congestion control, processing architectures, and more.
+    description: Worked in the system infrastructure team specifically on tightly-coupled high-performance network technologies including topologies, routing algorithms, network acceleration and offloading, congestion control, processing architectures, and more.
     visibility: true
   - company_name: Hewlett Packard Labs
     company_logo: hpe.png
     company_url: https://hpe.com/labs
     designation: Research Scientist
-    description: I was a lead architect on design of a new high-performance network designed for large-scale high-performance computing (HPC) systems and massively parallel memory-driven computing (MDC) systems. I was the key designer of the Gen-Z routing architectural specification. Using a data-driven simulation approach I guided the design of a novel multi-chip module (MCM) switch architecture that utilizes co-packaged integrated photonics.
+    description: A lead architect for a new high-performance network design for large-scale high-performance computing (HPC) systems and massively parallel memory-driven computing (MDC) systems. I was the key designer of the Gen-Z routing architectural specification. Using a data-driven simulation approach I guided the design of a novel multi-chip module (MCM) switch architecture that utilizes co-packaged integrated photonics.
     visibility: true
   - company_name: L3 Communications
     company_logo: l3.png
@@ -84,16 +86,73 @@ author_education_details:
 
 # Projects
 author_project_details:
-- project_thumbnail: gamershub.png
-  project_title: Gamers Hub
-  project_description: A Platform built for Gamers and Game Devs
-  project_url: https://gamershub.in
+- project_thumbnail: libdes.png
+  project_title: Libdes
+  project_description: A parallel discrete event simulation framework.
+  project_url: https://github.com/nicmcd/libdes
   visibility: true
-- project_thumbnail: hack4r.PNG
-  project_title: Hack4r
-  project_description: A Platform built for Hackers and Penetration Testers
-  project_url: https://hack4r.com
+
+- project_thumbnail: supersim.png
+  project_title: SuperSim
+  project_description: A flit-level interconnection network simulator.
+  project_url: https://github.com/nicmcd/supersim
   visibility: true
+
+- project_thumbnail: paramgmt.jpg
+  project_title: ParaMgmt
+  project_description: A parallel SSH-based remote machine management system.
+  project_url: https://github.com/google/paramgmt
+  visibility: true
+
+- project_thumbnail: taskrun.png
+  project_title: TaskRun
+  project_description: An easy-to-use python package for parallel task execution.
+  project_url: https://github.com/nicmcd/taskrun
+  visibility: true
+
+- project_thumbnail: devsearch.png
+  project_title: DevSearch
+  project_description: A project development find and goto system.
+  project_url: https://github.com/nicmcd/devsearch
+  visibility: true
+
+# Publications
+author_publication_details:
+- publication_title: Practical and Efficient Incremental Adaptive Routing for HyperX Networks
+  publication_summary: We present two practical and efficient incremental adaptive routing algorithms for HyperX.
+  publication_authors: Nic McDonald, Mikhail Isaev, Adriana Flores, Al Davis, John Kim
+  publication_pdf: pubs/nicmcdonald_hxrouting_sc_2019.pdf
+  publication_slides: pubs/nicmcdonald_hxrouting_sc_2019_slides.pdf
+  publication_cite: pubs/nicmcdonald_hxrouting_sc_2019.bib
+  publication_doi: https://doi.org/10.1145/3295500.3356151
+
+- publication_title: "SuperSim: Extensible Flit-Level Simulation of Large-Scale Interconnection Networks"
+  publication_summary: We present SuperSim, an open-source flit-level interconnection network simulator for large-scale high-performance networks.
+  publication_authors: Nic McDonald, Adriana Flores, Al Davis, Mikhail Isaev, John Kim, Doug Gibson
+  publication_pdf: nicmcdonald_supersim_ispass_2018.pdf
+  publication_slides: nicmcdonald_supersim_ispass_2018_slides.pdf
+  publication_cite: nicmcdonald_supersim_ispass_2018.bib
+  publication_doi: https://doi.org/10.1109/ISPASS.2018.00017
+
+- publication_title: High-Performance Service-Oriented Computing
+  publication_summary: This dissertation presents Sikker, a highly-scalable high-performance distributed system architecture for secure service-oriented.
+  publication_authors: Nic McDonald, Bill Dally
+  publication_pdf: nicmcdonald_hpsoc_stanford_2016.pdf
+  publication_slides: nicmcdonald_hpsoc_stanford_2016_slides.pdf
+  publication_cite: nicmcdonald_hpsoc_stanford_2016.bib
+  publication_doi:
+
+
+#- project_thumbnail: gamershub.png
+#  project_title: Gamers Hub
+#  project_description: A Platform built for Gamers and Game Devs
+#  project_url: https://gamershub.in
+#  visibility: true
+#- project_thumbnail: hack4r.PNG
+#  project_title: Hack4r
+#  project_description: A Platform built for Hackers and Penetration Testers
+#  project_url: https://hack4r.com
+#  visibility: true
 
 # social links - using
 github_username:  nicmcd
